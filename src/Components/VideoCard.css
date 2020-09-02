@@ -1,0 +1,46 @@
+.videocard {
+  color: white;
+  width: 500px;
+  height: 400px;
+  padding: 20px;
+  padding-top: 30px;
+  cursor: pointer;
+  transition: transform 50ms ease-in-out;
+}
+
+.videocard > img {
+  height: 300px;
+
+  object-fit: contain;
+  width: 500px;
+}
+
+.videocard > p {
+  padding-left: 20px;
+}
+
+.videocard > .description {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.videocard > .likes {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.videocard:hover > .likes {
+  display: inline;
+  align-items: center;
+  justify-content: center;
+}
+
+.videocard > h2 {
+  padding-left: 20px;
+}
+
+.videocard:hover {
+  cursor: pointer;
+  transform: scale(1.09);
+}

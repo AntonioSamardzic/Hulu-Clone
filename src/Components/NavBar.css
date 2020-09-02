@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: scroll;
+  color: white;
+  text-transform: uppercase;
+}
+
+.navbar > div {
+  padding: 10px;
+  padding-left: 42px;
+  cursor: pointer;
+  transition: transform 50ms ease-in-out;
+  opacity: 0.5;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.navbar > div:hover {
+  padding: 10px;
+  padding-left: 42px;
+  cursor: pointer;
+  transform: scale(1.4);
+  opacity: 1;
+}
+
+.navbar::-webkit-scrollbar {
+  display: none;
+}
